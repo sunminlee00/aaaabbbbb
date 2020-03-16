@@ -34,6 +34,7 @@ public class Hello {
     @RequestMapping("/ttt")
     public String result()
     {
+    	 System.out.println("prt!!");
     	return "ttt";
     }
 	
